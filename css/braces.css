@@ -137,3 +137,23 @@ img {
     height: 50px;
     background-color: pink;
 }
+
+.link-back {
+    display: inline-block;
+    
+    margin-top: 15px;
+    margin-left: 5px;
+    
+    opacity: 0;
+    
+    transform: rotate(90deg);
+    
+    border: none;
+    background-color: transparent;
+
+    transition: all 0.3s;
+}
+
+.link-back:hover {
+    opacity: 1;
+}

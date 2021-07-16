@@ -11,33 +11,63 @@
 </head>
 <body>
 
+    <a class="link-back" href="diagnostics.html">
+        <img src="img/arrow.svg" alt="Arrow" width="20" height="20">
+    </a>
+
     <section class="steps">
         <div class="container">
-            <ol class="steps__list">
-                <li class="steps__item steps__item--first">
+            <div class="steps__list">
+                <div class="steps__item steps__item--first">
                     <h3 class="steps__title">Консультация</h3>
                     <div class="steps__number-wrap">
                         <span class="steps__number">1</span>
                         <i class="steps__circle"></i>
                     </div>
-                </li>
-                <li class="steps__item steps__item--second">
+                </div>
+                <span class="arrow arrow--first">
+                </span>
+                <div class="steps__item steps__item--second">
                     <h3 class="steps__title">Диагностика</h3>
                     <div class="steps__number-wrap">
                         <span class="steps__number">2</span>
                         <i class="steps__circle"></i>
                     </div>
-                </li>
-                <li class="steps__item steps__item--third">
+                        <div class="diagno-images">
+                            <div class="diagno-image-wrap pano">
+                                <img class="diagno-image diagno-image--pano" src="img/Pano.jpg" alt="Pano" width="300" height="180">
+                                <h2 class="diagno-image-title">Панорамный снимок <br> (ОПТГ)</h2>
+                            </div>
+                            <div class="diagno-image-wrap trg">
+                                <img class="diagno-image diagno-image--trg" src="img/TRG.jpg" alt="TRG" width="250" height="180">
+                                <h2 class="diagno-image-title">Телерентгенограмма <br> (ТРГ)</h2>
+                            </div>
+                            <div class="diagno-image-wrap photo">
+                                <img class="diagno-image diagno-image--photo" src="img/intraoral.jpg" alt="Photo" width="300" height="150">
+                                <h2 class="diagno-image-title">Внутриротовые <br> фотографии зубов</h2>
+                            </div>
+                            <div class="diagno-image-wrap models">
+                                <div>
+                                    <img class="diagno-image diagno-image--alginate" src="img/alginate.jpg" alt="Alginate impression" width="220" height="200">
+                                    <img class="diagno-image diagno-image--models" src="img/models.jpg" alt="Models" width="250" height="170">
+                                </div>
+                                <h2 class="diagno-image-title">Слепки зубов</h2>
+                            </div>
+                        </div>
+                </div>
+                <span class="arrow arrow--second"></span>
+                <div class="steps__item steps__item--third">
                     <h3 class="steps__title">Обсуждение <br> плана лечения</h3>
                     <div class="steps__number-wrap">
                         <span class="steps__number">3</span>
                         <i class="steps__circle"></i>
                     </div>
-                </li>
-            </ol>
-        </div>
+                </div>
+            </div><!--steps__list-->
+        </div><!--container-->
     </section>
+    
+    <script src="steps.js"></script>
     
 </body>
 </html>
