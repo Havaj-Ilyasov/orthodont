@@ -1,0 +1,100 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    position: relative;
+    
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section:not(:last-child) {
+    margin-bottom: 100px;
+}
+
+.title {
+    margin-bottom: 60px;
+    
+    font-size: 48px;
+    text-align: center;
+}
+
+.xray-images {
+    display: flex;
+}
+
+.images-title {
+    margin-bottom: 15px;
+    
+    font-size: 32px;
+    text-align: center;
+}
+
+.pano-child {
+    font-family: "Montserrat", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+
+    background-color: transparent;
+    border: none;
+
+    cursor: pointer;
+    outline: none;
+}
+
+.xray-image--pano {
+    margin-right: 30px;
+}
+
+
+
+/* Photos */
+
+.photo-images {
+    display: flex;
+}
+
+.photo-image--mouth {
+    margin-right: 100px;
+}
+
+/* Models */
+
+.models.section {
+    margin-bottom: 0;
+}
+
+.models-images {
+    display: flex;
+}
+
+.models-image--alginate {
+    margin-right: 50px;
+}
+
+.step-link {
+    display: block;
+    text-align: right;
+    
+    text-decoration: none;
+    color: blue;
+}
+
+.arrow {
+    padding-bottom: 20px;
+    width: 15px;
+    height: 15px;
+
+    transform: rotate(-90deg);
+}

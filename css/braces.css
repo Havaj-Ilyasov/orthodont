@@ -1,0 +1,139 @@
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    height: 100vh;
+}
+
+.braces__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;    
+}
+
+.braces__item {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+img {
+    max-width: 100%;
+}
+
+.braces__link {
+    text-decoration: none;
+    
+    transition: all 0.3s;
+}
+
+.braces__link:hover {
+    transform: scale(1.1);
+}
+
+/* Biomim */
+
+.biomim .braces__img {
+    width: 500px;
+    height: 500px;
+}
+
+.biomim .braces__title {
+    font-family: "Arial", sans-serif;
+    font-size: 72px;
+    font-style: bold;
+    color: #00B1D2;
+
+    text-align: center;
+}
+
+.biomim .subtext {
+    color: #0E64AC;
+}
+
+/* H4 */
+
+.h4 .braces__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.h4 .logo {
+    order: 1;
+    width: 50px;
+    height: 50px;
+}
+
+.h4 .braces__img {
+    order: 0;
+}
+
+.h4 .braces__title {
+    order: 2;
+
+    font-size: 72px;
+    color: #000000;
+}
+
+/* Damon Q */
+
+.damon_q .braces__img {
+    width: 615px;
+    height: 500px;
+}
+
+.damon_q .braces__title {
+    font-family: "Arial", sans-serif;
+    font-size: 72px;
+    font-weight: 900;
+    color: #0365B0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* Damon Q2 */
+
+.damon_q2 .braces__title {
+    font-family: "Arial", sans-serif;
+    font-size: 72px;
+    font-weight: 900;
+    color: #0365B0;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+/* SLX */
+
+.slx .braces__title {
+    font-size: 72px;
+    font-weight: 900;
+    color: #BF311A;
+    text-align: center;
+}
+
+.slx .subtext {
+    color: #000000;
+}
+
+/* box */
+
+.box {
+    width: 50px;
+    height: 50px;
+    background-color: pink;
+}

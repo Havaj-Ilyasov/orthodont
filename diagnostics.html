@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/diagnostics.css">
+    <title>Данные для диагностики</title>
+</head>
+<body>
+    
+    <section class="diagnostics">
+        <div class="container">
+
+            <section class="xray section">
+                <h2 class="title">Рентгеновские снимки</h2>
+                <div class="xray-images">
+                    <div class="xray-images-wrap">
+                        <h3 class="images-title">Панорамный снимок <button class="pano-child">(ОПТГ)</button></h3>
+                        <a href="img/Pano.jpg" class="xray-pano-link">
+                            <img class="xray-image xray-image--pano full-screen" src="img/Pano.jpg" width="609" height="327" alt="ОПТГ">
+                        </a>
+                    </div>
+                    <div class="xray-images-wrap">
+                        <h3 class="images-title">Телерентгенограмма (ТРГ)</h3>
+                        <img class="xray-image xray-image--trg" src="img/TRG.jpg" width="558" height="483" alt="ТРГ">
+                    </div>
+                </div>
+            </section>           
+
+            <section class="photo section">
+                <h2 class="title">Дентальные фотографии</h2>
+                <div class="photo-images">
+                    <div class="photo-images-wrap">
+                        <img class="photo-image photo-image--mouth" src="img/intraoral.jpg" width="629" height="330" alt="ОПТГ">
+                    </div>
+                    <div class="photo-images-wrap">
+                        <img class="photo-image photo-image--camera" src="img/camera.jpg" width="325" height="357" alt="ТРГ">
+                    </div>
+                </div>
+            </section>
+
+            <section class="models section">
+                <h2 class="title">Диагностические модели</h2>
+                <div class="models-images">
+                    <div class="models-images-wrap">
+                        <h3 class="images-title">Получение слепка зубов</h3>
+                        <img class="models-image models-image--alginate" src="img/alginate.jpg" width="439" height="439" alt="">
+                    </div>
+                    <div class="models-images-wrap">
+                        <h3 class="images-title">Отливка гипсовых моделей</h3>
+                        <img class="models-image models-image--models" src="img/models.jpg" width="600" height="399" alt="">
+                    </div>
+                </div>
+            </section>
+
+            <a class="step-link" href="steps.html">
+                <img class="arrow" src="img/arrow.svg" alt="">
+            </a>
+            
+        </div>
+    </section>
+    
+    <script src="diagnostics.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,72 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.steps__list {
+    position: relative;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+
+    overflow: hidden;
+}
+
+.steps__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.steps__title {
+    margin-bottom: 30px;
+
+    font-size: 28px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.steps__number-wrap {
+    position: relative;
+}
+
+.steps__number {
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    
+    transform: translate(-50%, 50%);
+    
+    font-size: 45px;
+    color: #ffffff;
+}
+
+.steps__circle {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+
+    background: #85D5F8;
+    border-radius: 50%;
+}

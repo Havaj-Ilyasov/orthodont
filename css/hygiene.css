@@ -1,0 +1,45 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    color: #000000;
+    
+    text-decoration: none;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hygiene__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+    align-items: center;
+    justify-content: space-between;
+
+    list-style: none;
+
+    /* border: 1px solid green; */
+}
+
+.hygiene__item {
+    width: 25%;
+    /* border: 1px solid blue; */
+}
+
+.hygiene__link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
